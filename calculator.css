@@ -1,0 +1,159 @@
+/* General */
+h1 {
+	margin-left: -20px;
+	color: white;
+	background-color: #898743;
+	padding-left: 20px;
+	padding-bottom: 15px;
+	padding-top: 15px;
+	font-size: 41px;
+
+}
+h2{
+	float: left;
+	font-size: 25px;
+
+}
+h3{
+		float: right;
+		margin-right:470px;
+
+		font-size: 25px;
+
+	}
+
+body {
+	font-family: "Univers LT Std";
+	background-color: white;
+	color: #333;
+}
+body * {
+	box-sizing: border-box;
+}
+li {
+	margin-bottom: 20px;
+	margin-left: -514px;
+}
+main {
+	margin: 60px 80px;
+}
+
+
+
+
+/* Forms */
+
+.inputs {
+	float: left;
+
+}
+.input-list {
+	list-style: none;
+	padding-left: 0;
+	margin-bottom: 50px;
+}
+
+.input-group {
+
+}
+.calculator-input {
+	background-color: #898743;
+	margin-bottom: 20px;
+}
+.input-label,
+.calculator-input {
+	display: inline-block;
+}
+.input-label {
+
+	margin-bottom: 30px;
+
+}
+
+.calculator-input {
+	height: 45px;
+	width: 230px;
+	padding: 10px 20px;
+	border: none;
+	font-size: 20px;
+
+}
+
+.submit-button {
+	height: 60px;
+	width: 150px;
+	background-color: #898743;
+	font-size: 17px;
+	color: white;
+	border-radius: 5px;
+	margin-left: -514px;
+	font-family: "Univers LT Std";
+}
+.Reset{
+	height: 60px;
+	width: 150px;
+	background-color: #3a391d;
+	font-size: 17px;
+	color: white;
+	border-radius: 5px;
+	margin-left: -40%;
+	margin-top: 30px;
+	font-family: "Univers LT Std";
+
+}
+
+/* Results */
+
+
+
+.result-data-group {
+	position: relative;
+	padding-left: 50px;
+
+	/* float: left; */
+	display: inline-block;
+
+	/* background-color: #898743; */
+}
+.result-data-group{
+	font-size: 20px;
+	margin-left: -80%;
+	margin-top: 9.4%;
+}
+
+
+.result-label {
+	font-size: 20px;
+	text-align: left;
+	margin-left: 30px;
+
+
+}
+.result-val {
+	font-size: 20px;
+	background-color: #3a391d;
+	color: white;
+	height: 45px;
+	width: 230px;
+	padding: 15px 20px;
+	display: inline-block;
+	margin-bottom: 30%;
+
+}
+.results{
+	position: absolute;
+	margin-left: 710px;
+	display: inline-block;
+
+}
+
+/* Chart */
+
+
+.donut-chart{
+	display: flex;
+	height: 45px;
+	margin-top: 200%;
+	
+
+}

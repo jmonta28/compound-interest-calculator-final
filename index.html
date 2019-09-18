@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Compound Interest Calculator</title>
+	<meta name="description" content="DESCRIPTION">
+	<link rel="stylesheet" href="calculator.css">
+
+	<!--[if lt IE 9]>
+	<script src = "http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+</head>
+<body>
+	<main>
+		<h1>Compound Interest Calculator</h1>
+
+		<h2>Input<h2>
+		<h3>Results<h3>
+
+		<form class="inputs">
+			<ul class="input-list">
+				<li class="input-group">
+					<input type="number" class="calculator-input" name="amount" value="10000"
+					<label class="input-label" for="amount">Starting Amount</label>
+				</li>
+				<li class="input-group">
+					<input type="number" class="calculator-input" name="interest" value="2">
+					<label class="input-label" for="interest">Interest Rate</label>
+				</li>
+				<li class="input-group">
+					<input type="number" class="calculator-input" name="contribution" value="0">
+					<label class="input-label" for="contribution">Annual Contribution</label>
+				</li>
+				<li class="input-group">
+					<input type="number" class="calculator-input" name="duration" value="10">
+					<label class="input-label" for="duration">Duration</label>
+				</li>
+			</ul>
+			<button type="button" class="submit-button" onclick="calculate()">Calculate</button>
+		</form>
+		<section class="results">
+			<div class="result-data-group result-total">
+				<strong class="result-val final-val">$1218.99</strong>
+				<span class="result-label">Final Amount</span>
+			</div>
+			<div class="result-data-group result-starting">
+				<strong class="result-val starting-val">$1000</strong>
+				<label class="result-label">Starting Amount</label>
+			</div>
+			<div class="result-data-group result-contribution">
+				<strong class="result-val contribution-val">$0.00</strong>
+				<label class="result-label">Contribution Total</label>
+			</div>
+			<div class="result-data-group result-return">
+				<strong class="result-val return-val">$0.00</strong>
+				<label class="result-label">Total Return</label>
+			</div>
+			<button type="button" class="Reset">Reset</button>
+		</section>
+		<section>
+		<div class="donut-chart">
+			<canvas id="piechart"></canvas>
+		</div>
+		</section>
+	</main>
+	<script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+	<script type="text/javascript" src="calculator.js"></script>
+</body>
+</html>
